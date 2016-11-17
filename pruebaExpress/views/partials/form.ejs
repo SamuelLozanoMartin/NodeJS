@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include header %>
+    </header>
+
+    <main>
+        <form method="POST" action="/contacto">
+			<label>nombre</label>
+			<input type="text" name="nombre">
+			<label>password</label>
+			<input type="text" name="pass">
+			<input type="submit" value="enviar">
+		</form>  
+    </main>
+    <footer>
+        <% include footer %>
+    </footer>
+    
+</body>
+</html>
